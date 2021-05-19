@@ -1,0 +1,128 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4.35rem;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #696969;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.head_login {
+    padding-left: 0.3rem;
+}
+
+.head_reg {
+    padding-left: 0.5rem;
+}
+
+.bd-heading {
+    color: white;
+}
+
+#search-input {
+    height: 3.63rem;
+    font-size: 1.25rem;
+}
+
+.form-number {
+    display: block;
+    width: 100%;
+    padding: .375rem .375rem .375rem .375rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background-color: white;
+}
+.form-number2 {
+    display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background-color: white;
+}
+
+#quantity {
+    max-width: 5rem;
+    margin: .25rem;
+    padding-left: .2rem;
+}
+
+#quantity2 {
+    max-width: 5rem;
+    margin: .25rem;
+    padding-left: .2rem;
+}
+
+.form-date {
+    display: block;
+    width: 100%;
+    padding: .375rem .375rem .375rem .375rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background-color: white;
+}
+
+#date_start {
+    font-size: 1.18rem;
+    color: #6c757d;
+    padding-left: .35rem;
+}
+
+#date_end {
+    font-size: 1.18rem;
+    color: #6c757d;
+    padding-left: .35rem;
+}
+
+.button_container {
+    position: relative;
+    padding-top: 2.5rem;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.white_heading {
+    color: white;
+}
+
